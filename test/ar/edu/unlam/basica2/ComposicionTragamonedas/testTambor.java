@@ -11,7 +11,18 @@ public class testTambor {
 		Integer cantidadDeCaras=6;
 		Tambor miTambor = new Tambor(cantidadDeCaras);
 		assertTrue(miTambor.getCantidadDeCaras().intValue() == cantidadDeCaras);
+	
 	}
 
+	@Test
+	public void testQueEstaEntreElRango() {
+		Integer cantidadDeCaras = 8;
+		Tambor miTambor = new Tambor(cantidadDeCaras);
+		
 
+			miTambor.girar();
+			assertTrue( (miTambor.getPosicion() > 0) && (miTambor.getPosicion() <= cantidadDeCaras) );
+			
+		
+	}
 }

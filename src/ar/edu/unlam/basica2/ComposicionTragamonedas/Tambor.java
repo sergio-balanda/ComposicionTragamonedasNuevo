@@ -10,7 +10,7 @@ public class Tambor {
 	}
 
 	public void girar() {
-		this.posicion = (int)(Math.random()*10+1);
+		this.posicion = (int)(Math.random()*cantidadDeCaras+1);
 
 	}
 
