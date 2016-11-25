@@ -15,7 +15,7 @@ public class testTambor {
 	}
 
 	@Test
-	public void testQueEstaEntreElRango() {
+	public void testQueEsteEntreElRango() {
 		Integer cantidadDeCaras = 8;
 		Tambor miTambor = new Tambor(cantidadDeCaras);
 		
